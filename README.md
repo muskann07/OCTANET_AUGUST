@@ -11,8 +11,6 @@ Welcome to the **Book Haven** landing page project! This project is a responsive
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -43,4 +41,5 @@ The **Book Haven** landing page serves as a gateway for book lovers to explore v
 
 3. **Open the index.html file in your web browser.**
 
-
+## Usage:
+Once you've set up the project, you can view the landing page by opening index.html in your browser. You can interact with various sections such as signing up, buying, and selling books.
