@@ -1,0 +1,319 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 30px; /* Small logo size */
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-up-link {
+    font-size: 18px;
+    background: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about, .books, .reviews, .contact, .buy-sell, .login {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    overflow: hidden; /* Ensures pseudo-element doesn't overflow */
+    background: url('https://getwallpapers.com/wallpaper/full/2/0/9/888932-library-background-images-1920x1080-for-ipad-2.jpg') no-repeat center center/cover;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent overlay (adjust alpha value) */
+    z-index: 1; /* Ensures the overlay is above the background image */
+}
+
+.content {
+    position: relative;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background for readability */
+    color: #fff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2; /* Ensures the content is above the background image */
+    text-align: left;
+}
+
+
+.about h2 {
+    margin-top: 0;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.books {
+    background: #fff;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    max-width: 200px;
+    margin: 20px;
+}
+
+.book-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reviews {
+    background: #f5f5f5;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review-item {
+    max-width: 300px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    background: #fff;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Buy and Sell Section */
+.buy-sell {
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.buy, .sell {
+    width: 45%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buy-form, .sell-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.buy-form input, .sell-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.buy-form button, .sell-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buy-form button:hover, .sell-form button:hover {
+    background: #e55b5b;
+}
+
+/* Login Section */
+.login {
+    background: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #e55b5b;
+}
+.reviews {
+    background: #f5f5f5;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review-item {
+    max-width: 300px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .book-list, .review-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-item, .review-item {
+        max-width: 90%;
+    }
+
+    .buy-sell {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buy, .sell {
+        width: 90%;
+    }
+}

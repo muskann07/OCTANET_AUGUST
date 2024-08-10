@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="https://t3.ftcdn.net/jpg/01/38/89/36/360_F_138893633_nPaNi1foQJB5DYZcXm7e2gKaOnn6cTjG.jpg" alt="Book Logo" class="logo-img">
+                <h1 class="logo">Book Haven</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signup" class="sign-up-link">Sign-Up</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h2>Welcome to Book Haven</h2>
+            <p>Your Gateway to Endless Adventures</p>
+            <a href="#books" class="btn">Explore Books</a>
+        </div>
+    </header>
+
+   <!-- About Section -->
+<section id="about" class="about">
+   
+    <div class="content">
+        <h2>About Us</h2>
+        <p>Welcome to Book Haven, where the world of stories comes to life! At Book Haven, we believe that every book holds the power to transform, transport, and transcend. Nestled in the heart of the city, our bookstore is more than just a place to purchase books; it's a sanctuary for readers, a community for thinkers, and a haven for dreamers. Whether you're a seasoned bibliophile or a casual reader, you'll find yourself immersed in a world of literary wonders as you browse our carefully curated selection. From timeless classics to contemporary bestsellers, from riveting thrillers to heartwarming romances, our shelves are brimming with stories waiting to be discovered. <br><br>
+
+            But Book Haven is not just about books—it's about the experience. As you walk through our doors, you're greeted by the comforting scent of paper and ink, the soft rustle of pages turning, and the warm smiles of fellow book lovers. Our knowledgeable staff is always on hand to guide you, whether you're looking for a specific title or just want to chat about your latest read. We also host regular events, from author signings to book clubs, creating a vibrant space where ideas are shared and friendships are forged.<br> <br>
+            
+            In a world that's increasingly fast-paced and digital, we offer a space to slow down, unplug, and lose yourself in the simple joy of reading. Whether you're here to find your next great read, meet like-minded souls, or simply escape into a world of imagination, Book Haven is your gateway to endless adventures. Welcome to your new favorite place.</p>
+    </div>
+    
+</section>
+    <!-- Featured Books Section -->
+    <section id="books" class="books">
+        <h2>Featured Books</h2>
+        <div class="book-list">
+            <div class="book-item">
+                <a href="https://www.goodreads.com/book/show/8665.The_Adventures_of_Sherlock_Holmes" target="_blank">
+                    <img src="https://cdn.waterstones.com/bookjackets/large/9781/8452/9781845299262.jpg" alt="Book 1">
+                    <h3>The Adventures of Sherlock Holmes</h3>
+                </a>
+            </div>
+            <div class="book-item">
+                <a href="https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird" target="_blank">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71HZbA0WscL.jpg" alt="Book 2">
+                    <h3>To Kill a Mockingbird</h3>
+                </a>
+            </div>
+            <div class="book-item">
+                <a href="https://www.goodreads.com/book/show/40961427-1984" target="_blank">
+                    <img src="https://m.media-amazon.com/images/I/61NAx5pd6XL.jpg" alt="Book 3">
+                    <h3>1984 by George Orwell</h3>
+                </a>
+            </div>
+            <div class="book-item">
+                <a href="https://www.goodreads.com/book/show/1885.Pride_and_Prejudice" target="_blank">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71+NGGc4GmS.jpg" alt="Book 4">
+                    <h3>Pride and Prejudice</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy and Sell Section -->
+    <section id="buy-sell" class="buy-sell">
+        <div class="buy">
+            <h2>Buy Books</h2>
+            <p>Looking to buy a book? Fill out the details below to find your next great read. Our collection is vast and varied, and we're here to help you discover your new favorite book!</p>
+            <form class="buy-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Name of Book" required>
+                <input type="text" placeholder="Address" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="sell">
+            <h2>Sell Books</h2>
+            <p>Ready to part with some of your books? Fill out the form below to sell your books. We're excited to offer your books a new home where they'll be cherished!</p>
+            <form class="sell-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Name of Book" required>
+                <input type="text" placeholder="Address" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup" class="login">
+        <div class="login-container">
+            <h2>Sign Up</h2>
+            <p>Join our community! Create an account to manage your books, track purchases, and connect with other book lovers.</p>
+            <form class="login-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="#login">Log In</a></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <h2>Reader Reviews</h2>
+        <div class="review-list">
+            <div class="review-item">
+                <p>"A must-visit for every book lover. I found books I never knew existed!"</p>
+                <h3>- Jane Doe</h3>
+            </div>
+            <div class="review-item">
+                <p>"The ambiance and selection of books are simply amazing!"</p>
+                <h3>- John Smith</h3>
+            </div>
+            <div class="review-item">
+                <p>"Book Haven is a paradise. I could spend all day here."</p>
+                <h3>- Emily White</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Connect with us on social media or drop us a message.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:info@bookhaven.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Book Haven. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
