@@ -24,13 +24,13 @@ The **Book Haven** landing page serves as a gateway for book lovers to explore v
 - **Dark Transparent Backgrounds**: Sections feature a dark semi-transparent background for enhanced readability.
 - **Interactive Elements**: Clickable links on book images that direct users to more information about each book.
 
-## Technologies Used:
+## Technologies Used
 
 - **HTML**: For structuring the content.
 - **CSS**: For styling and layout, including responsive design.
 - **Unsplash**: For high-quality background images.
 
-## Setup Instructions:
+## Setup Instructions
 
 1. **Clone the repository:**
    ```bash
@@ -41,5 +41,5 @@ The **Book Haven** landing page serves as a gateway for book lovers to explore v
 
 3. **Open the index.html file in your web browser.**
 
-## Usage:
+## Usage
 Once you've set up the project, you can view the landing page by opening index.html in your browser. You can interact with various sections such as signing up, buying, and selling books.
