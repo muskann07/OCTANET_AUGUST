@@ -11,7 +11,6 @@ Welcome to the **Book Haven** landing page project! This project is a responsive
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Visit site](#visit-site)
 
 ## Project Overview
 
