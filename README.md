@@ -11,6 +11,7 @@ Welcome to the **Book Haven** landing page project! This project is a responsive
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
+- [Visit site](#visit-site)
 
 ## Project Overview
 
@@ -43,3 +44,6 @@ The **Book Haven** landing page serves as a gateway for book lovers to explore v
 
 ## Usage
 Once you've set up the project, you can view the landing page by opening index.html in your browser. You can interact with various sections such as signing up, buying, and selling books.
+
+**Visit site:**
+https://muskann07.github.io/OCTANET_AUGUST/
